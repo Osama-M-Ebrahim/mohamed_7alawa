@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mohamed 7alawa</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- شاشة البداية -->
+  <div class="welcome-screen active" id="welcome">
+    <h1>Welcome to 7alawa Session</h1>
+    <p>prfict session 7alwa</p>
+    <button class="start-btn" onclick="startBook()">Start</button>
+  </div>
+
+
+  <!-- شاشة الكتاب -->
+
+  
+  <div class="book-screen" id="book" style="display: none;">
+    <div class="container">
+      <div class="flipbook">
+        <div class="page"><img src="img/IMG_3066.JPG"></div>
+        <div class="page"><img src="img/IMG_3081.JPG"></div>
+        <div class="page"><img src="img/IMG_4379.JPG"></div>
+        <div class="page"><img src="img/IMG_5040.JPG"></div>
+        <div class="page"><img src="img/IMG_7043.JPEG"></div>
+        <div class="page"><img src="img/IMG_7139.JPEG"></div>
+        <div class="page"><img src="img/IMG_7821.JPEG"></div>
+        <div class="page"><img src="img/IMG_9076.JPEG"></div>
+        <div class="page"><img src="img/IMG_9124.JPEG"></div>
+        <div class="signature">
+          Mohamed Halawa
+        </div>
+        
+      </div>
+    </div>
+
+    <button id="prevPage" class="nav-btn">‹</button>
+    <button id="nextPage" class="nav-btn">›</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
